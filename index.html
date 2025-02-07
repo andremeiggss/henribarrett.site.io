@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section with Menu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-color: #F2F2F2;">
+
+    <!-- Navigation Menu -->
+    <nav id="menu" class="d-flex justify-content-between align-items-center px-4 py-3">
+        <div class="logo">
+            <img src="images/logo_main.svg" alt="Henri Barrett Logo" class="logo-img">
+        </div>
+        <ul class="menu-items d-none d-md-flex">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#quicklys">Quicklys</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="cta">
+            <a href="#work-with-us" class="cta-link">Work with us</a>
+        </div>
+        <!-- Burger Menu for Mobile -->
+        <div class="burger-menu d-md-none">
+            <button id="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center">
+        <div class="d-none d-md-block">
+            <div class="hero-line">
+                <div class="hero-line-mask">
+                    <div class="big-title-line" id="desktop-line-1">ALWAYS</div>
+                </div>
+                <div class="hero-line-mask">
+                    <img src="images/gif.svg" alt="Illustration" class="placeholder-img" id="placeholder-img">
+                </div>
+            </div>
+            <div class="hero-line" style="margin-top: -2vh;">
+                <div class="hero-line-mask">
+                    <div class="big-title-line" id="desktop-line-3">WATCHING</div>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none">
+            <div class="hero-line hero-line-mask" id="mobile-line-1">
+                <img src="images/gif.svg" alt="Illustration" class="placeholder-img" id="mobile-placeholder-img">
+            </div>
+            <div class="hero-line hero-line-mask" id="mobile-line-2">
+                <div class="big-title-line">ALWAYS</div>
+            </div>
+            <div class="hero-line hero-line-mask" id="mobile-line-3">
+                <div class="big-title-line">WATCHING</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
