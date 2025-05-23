@@ -1,0 +1,112 @@
+[
+  {
+    "posicion": 1,
+    "posAnterior": 2,
+    "nombre": "Liverpool",
+    "sigla": "LIV",
+    "logo": "liv.png",
+    "dt": "J\u00fcrgen Valor",
+    "pj": 38,
+    "pg": 28,
+    "pe": 6,
+    "pp": 4,
+    "gf": 88,
+    "gc": 35,
+    "puntos": 90,
+    "forma": [
+      {
+        "res": "W",
+        "rival": "ARS",
+        "marcador": "2-1"
+      },
+      {
+        "res": "D",
+        "rival": "CHE",
+        "marcador": "1-1"
+      },
+      {
+        "res": "W",
+        "rival": "NEW",
+        "marcador": "3-0"
+      },
+      {
+        "res": "W",
+        "rival": "MCI",
+        "marcador": "1-0"
+      },
+      {
+        "res": "W",
+        "rival": "TOT",
+        "marcador": "2-0"
+      }
+    ],
+    "nextMatch": {
+      "local": {
+        "abbr": "LIV",
+        "logo": "liv.png"
+      },
+      "visitante": {
+        "abbr": "ARS",
+        "logo": "ars.png"
+      },
+      "fecha": "Sun 28 May 2025",
+      "score": "2\u20131"
+    },
+    "extra": "Salah goleador con 24 tantos."
+  },
+  {
+    "posicion": 2,
+    "posAnterior": 1,
+    "nombre": "Arsenal",
+    "sigla": "ARS",
+    "logo": "ars.png",
+    "dt": "Mikel Arteta",
+    "pj": 38,
+    "pg": 27,
+    "pe": 7,
+    "pp": 4,
+    "gf": 82,
+    "gc": 30,
+    "puntos": 88,
+    "forma": [
+      {
+        "res": "W",
+        "rival": "TOT",
+        "marcador": "2-0"
+      },
+      {
+        "res": "W",
+        "rival": "MUN",
+        "marcador": "1-0"
+      },
+      {
+        "res": "W",
+        "rival": "CHE",
+        "marcador": "3-1"
+      },
+      {
+        "res": "L",
+        "rival": "LIV",
+        "marcador": "1-2"
+      },
+      {
+        "res": "W",
+        "rival": "AVL",
+        "marcador": "2-1"
+      }
+    ],
+    "nextMatch": {
+      "local": {
+        "abbr": "ARS",
+        "logo": "ars.png"
+      },
+      "visitante": {
+        "abbr": "MCI",
+        "logo": "mci.png"
+      },
+      "fecha": "Sun 28 May 2025",
+      "score": "3\u20133"
+    },
+    "extra": "Odegaard, motor del medio campo gunner."
+  }
+]

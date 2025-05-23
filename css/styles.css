@@ -1,0 +1,239 @@
+body {
+  background-color: #f9f9fb;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #1d1d1f;
+}
+
+h2.text-purple {
+  color: #37003c;
+}
+
+table thead th {
+  color: #6c2eb9;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+table td {
+  font-size: 0.95rem;
+  padding: 0.75rem 0.5rem;
+}
+
+table td img.club-logo {
+  width: 28px;
+  margin-right: 8px;
+}
+
+.form-badge {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 4px;
+  color: #fff;
+}
+
+.form-badge.win { background-color: #00a650; }
+.form-badge.draw { background-color: #d0d0d0; color: #000; }
+.form-badge.loss { background-color: #e90052; }
+
+.next-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.arrow-icon {
+  font-size: 1.25rem;
+  color: #777;
+  cursor: pointer;
+}
+
+./* === Línea vertical para zonas especiales === */
+.zona-container {
+  padding: 0;
+  width: 6px;
+  background-color: transparent;
+}
+
+.zona-color {
+  width: 4px;
+  height: 100%;
+  min-height: 48px;
+  margin: 0 auto;
+  border-radius: 2px;
+  display: block;
+}
+
+.zona-champions {
+  background-color: #0071e3;
+}
+
+.zona-europa {
+  background-color: #ff6f0f;
+}
+
+th.zona-header {
+  width: 6px;
+  padding: 0 !important;
+}
+
+td.zona-container {
+  width: 6px;
+  padding: 0 !important;
+  background-color: transparent;
+}
+
+.zona-color {
+  width: 4px;
+  height: 100%;
+  min-height: 48px;
+  margin: 0 auto;
+  border-radius: 2px;
+  display: block;
+}
+
+.zona-champions {
+  background-color: #0071e3;
+}
+
+.zona-europa {
+  background-color: #ff6f0f;
+}
+    
+
+
+.position-tooltip-wrapper i {
+  font-size: 0.8rem;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.next-match-tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.next-match-tooltip {
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  text-align: center;
+  z-index: 10;
+  display: none;
+  font-size: 13px;
+  color: #1d1d1f;
+}
+
+.next-match-tooltip .date {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: #37003c;
+}
+
+.next-match-tooltip .teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.next-match-tooltip .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.next-match-tooltip .team img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.next-match-tooltip .team span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.next-match-tooltip .score {
+  font-weight: bold;
+  color: #37003c;
+  font-size: 14px;
+}
+
+.next-match-tooltip-wrapper:hover .next-match-tooltip {
+  display: block;
+}
+
+/* === Fila Expandible (Acordeón) === */
+.accordion-row {
+  background-color: #f0f0fa;
+  border-top: 1px solid #ddd;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.accordion-row.show {
+  height: auto;
+  opacity: 1;
+}
+
+.accordion-content {
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+/* === Responsive === */
+@media (max-width: 767px) {
+  .d-md-table-cell {
+    display: none !important;
+  }
+
+  table td, table th {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .club-logo {
+    width: 22px;
+    margin-right: 4px;
+  }
+
+  .form-badge, .arrow-icon {
+    font-size: 0.8rem;
+  }
+
+  .next-match-tooltip {
+    bottom: auto;
+    top: -10px;
+    transform: translateX(-50%) translateY(-100%);
+    font-size: 11px;
+    white-space: normal;
+  }
+
+  .tooltip {
+    font-size: 11px;
+  }
+
+
+    
+    
+    
+
+}
