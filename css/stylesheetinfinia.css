@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Anek Latin SemiCondensed';
+    src: url('AnekLatinSemiCondensed-Regular.woff2') format('woff2'),
+        url('AnekLatinSemiCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
